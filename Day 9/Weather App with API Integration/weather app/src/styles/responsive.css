@@ -1,0 +1,14 @@
+@media (max-width: 980px) {
+  .hero-card,
+  .weather-grid,
+  .graphic-card { grid-template-columns: 1fr; display: grid; }
+}
+
+@media (max-width: 760px) {
+  .hourly-grid,
+  .forecast-grid,
+  .meta-grid { grid-template-columns: 1fr; }
+
+  .search-bar { flex-direction: column; }
+  .chip-row { justify-content: flex-start; }
+}
